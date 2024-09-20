@@ -1,0 +1,24 @@
+.introduction {
+    height: 100vh;
+    background: url('../website_Objects/aesthethic-Bg.jpg') center/cover no-repeat;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(2, 19, 30, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #acacac;
+  }
+  

@@ -1,0 +1,58 @@
+  .contact {
+      padding: 50px 20px;
+      
+    }
+  .contact h2 {
+      text-align: center; 
+  }
+  .contact-container img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+    
+  form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  form label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: hsl(210, 24%, 42%);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: hsl(212, 24%, 35%);
+  }
+  
+  .contact-container img {
+    flex: 1;
+    max-width:20%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+  }
+
+  .copy-container {
+    text-align: center;
+  }
